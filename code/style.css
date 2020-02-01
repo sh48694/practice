@@ -1,0 +1,111 @@
+body{
+    background-color:#F4F6F6;
+    background-image: radial-gradient(white 20%, transparent 0), radial-gradient(white 20%, transparent 0);
+    background-position: 100px 100px, 100px,100px;
+    background-size: 2px 2px;
+    text-align: center;
+}
+
+.main_section {
+    display: inline-block;
+    text-align: center;
+}
+
+.log_in {
+    font-size:150%;
+    margin: 27% 5% 10% 2%;
+    color:#FF336F;
+}
+
+.info {
+    width:100%;
+    text-align: center;
+}
+
+.info_id {
+    background-color:#E6E8E8;
+    margin: 0 2% 5% 2%;
+    width:85%;
+    height:32px;
+    max-width: 300px;
+    border-radius: 5px;
+    border-width: 0px;
+    color:#A2A2A2;
+    font-weight:bold;
+    padding: 0 4px;
+}
+
+.info_password {
+    background-color:#E6E8E8;
+    margin: 0 2% 2% 2%;
+    width:85%;
+    height:32px;
+    max-width:300px;
+    border-radius: 5px;
+    border-width: 0px;
+    color:#A2A2A2;
+    font-weight:bold;
+    padding: 0 4px;
+}
+
+.search {
+    margin: 0 2% 5% 45%;
+    font-size:13px;
+    font-weight:bold;
+    color:#777;
+    cursor: pointer;
+}
+
+.log_in_button {
+    background-color: #FF336F;
+    margin: 6% 2% 2% 2%;
+    width:85%;
+    height:38px;
+    font-size:15px;
+    max-width:300px;
+    color:white;
+    font-weight:bold;
+    border-radius: 5px;
+    border-color: #FF336F;
+    box-shadow: none;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.add_button {
+    background-color:white;
+    margin: 2% 2% 2% 2%;
+    width:85%;
+    height:37px;
+    font-size:15px;
+    max-width:300px;
+    font-weight:bold;
+    color:#777;
+    border-radius: 5px;
+    border-color: #FF336F;
+    box-shadow: none;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+
+.ex1{
+    height:90px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+}
+
+.ex1::-webkit-scrollbar {
+    display: none;
+}
+
+.ex_item {
+    display: inline-block;
+    width:200px;
+    height:50px;
+    line-height: 50px;
+    text-align:center;
+    border-bottom:1px solid blue;
+    background-color: green;
+}
